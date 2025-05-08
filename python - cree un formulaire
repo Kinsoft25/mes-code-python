@@ -1,0 +1,22 @@
+
+var_nom=input("Entrez votre nom :")
+
+print("continue")
+
+var_pre=input("Entrez votre prenom :")
+
+print("continue")
+
+var_nat=input("Entrez votre nationalite :")
+
+print("continue")
+
+var=int(input("Entrez votre annee de naissance :"))
+
+ans=2025-var
+
+print("vous avez",ans, "ans")
+
+texte="ton nom est {}, ton prenom est {}, ta nationalité est {},ton annee de naissance {}"
+
+print(texte.format(var_nom, var_pre, var_nat, var))

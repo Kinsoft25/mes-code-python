@@ -1,0 +1,10 @@
+
+
+var=input("Entrez une lettre :")
+
+if var in ("AEIOUY, aeiouy"):
+
+    print("c'est une voyelle")
+
+else:
+    print("c'est une consonne")

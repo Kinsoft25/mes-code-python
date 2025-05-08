@@ -1,0 +1,7 @@
+
+
+
+var=int(input("Entrez votre année de naissance :"))
+
+ans=2025-var
+print("vous avez",ans,"ans")
